@@ -83,7 +83,7 @@ def player1():
         result = gameplay('x')
     winner = checkWinner()
     if winner == "yes":
-        print("\033[32mPlayer 1 won!!! \033[0m")
+        print("\033[32mPlayer 1 wins!!! \033[0m")
         return
     player2()
 
@@ -109,7 +109,7 @@ def player2():
         result = gameplay('0')
     winner = checkWinner()
     if winner == "yes":
-        print("\033[32mPlayer 2 won!!! \033[0m")
+        print("\033[32mPlayer 2 wins!!! \033[0m")
         return
     player1()
 
