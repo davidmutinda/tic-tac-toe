@@ -39,6 +39,27 @@ def gameplay(value):
     print(f'{arr[2][0]} | {arr[2][1]} | {arr[2][2]}')
     print("\033[0m")
 
+def checkWinner():
+    """This function checks whether the player has won by comparing values in grid"""
+    if arr[0][0] == arr[0][1] and arr[0][1] == arr[0][2] and arr[0][1] != ' ':
+        return "yes"
+    elif arr[1][0] == arr[1][1] and arr[1][1] == arr[1][2] and arr[1][1] != ' ':
+        return "yes"
+    elif arr[2][0] == arr[2][1] and arr[2][1] == arr[2][2] and arr[2][1] != ' ':
+        return "yes"
+    elif arr[0][0] == arr[1][1] and arr[1][1] == arr[2][2] and arr[1][1] != ' ':
+        return "yes"
+    elif arr[0][2] == arr[1][1] and arr[1][1] == arr[2][0] and arr[1][1] != ' ':
+        return "yes"
+    elif arr[0][0] == arr[1][0] and arr[1][0] == arr[2][0] and arr[1][0] != ' ':
+        return "yes"
+    elif arr[0][1] == arr[1][1] and arr[1][1] == arr[2][1] and arr[1][1] != ' ':
+        return "yes"
+    elif arr[0][2] == arr[1][2] and arr[1][2] == arr[2][2] and arr[1][2] != ' ':
+        return "yes"
+    else:
+        return "no"
+
 def player1():
     """This function is the entry point and allows player 1 to play it"""
     c = 0
