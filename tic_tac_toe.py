@@ -1,5 +1,5 @@
 def gameplay(value):
-    """This function takes the position the player inputs and prints  it on the grid"""
+    """This function takes the position the player inputs and prints it on the grid"""
     steps = [
         (0,0),
         (0,1),
