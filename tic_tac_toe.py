@@ -87,6 +87,32 @@ def player1():
         return
     player2()
 
+def player2():
+    """This function allows player 2 to play the game"""
+    c = 0
+    d = 0
+    for c in range(0,3):
+        for d in range(0,3):
+            if arr[c][d] == " ":
+                break
+        if arr[c][d] == " ":
+            break 
+    if c == 2 and d == 2:
+        print("\033[32mDraw!! \033[0m")
+        print(" ")
+        print("\033[91mGame over!!")
+        print("\033[0m")
+        quit()
+    print("\033[91mPLAYER 2's turn \033[0m")
+    result = "fail"
+    while result == "fail":
+        result = gameplay('0')
+    winner = checkWinner()
+    if winner == "yes":
+        print("\033[32mPlayer 2 won!!! \033[0m")
+        return
+    player1()
+
 arr = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
 winner = " "
 print("\033[32mWELCOME TO SHELBYS' TICTACTOE GAME")
