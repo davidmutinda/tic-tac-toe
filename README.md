@@ -2,7 +2,7 @@
 This repo contains a the tic-tac-toe game written in python which is run and played on the command line interface(CLI)
 
 
-
+## Sample output
 **Player 1 wins:**
 
 ![image](https://user-images.githubusercontent.com/96857630/168550264-34859ae8-6aa3-4295-803e-01f0414c4c2b.png)
