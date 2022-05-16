@@ -103,7 +103,7 @@ def player2():
         print("\033[91mGame over!!")
         print("\033[0m")
         quit()
-    print("\033[91mPLAYER 2'S TURN \033[0m")
+    print("\033[32mPLAYER 2'S TURN \033[0m")
     result = "fail"
     while result == "fail":
         result = gameplay('0')
