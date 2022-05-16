@@ -70,7 +70,7 @@ def player1():
                 break
         if arr[c][d] == " ":
             break 
-    if c == 2 and d == 2:
+    if c == 2 and d == 2 and arr[c][d] != " ":
         print("\033[32mDraw!! \033[0m")
         print(" ")
         print("\033[91mGame over!!")
@@ -97,7 +97,7 @@ def player2():
                 break
         if arr[c][d] == " ":
             break 
-    if c == 2 and d == 2:
+    if c == 2 and d == 2 and arr[c][d] != " ":
         print("\033[32mDraw!! \033[0m")
         print(" ")
         print("\033[91mGame over!!")
