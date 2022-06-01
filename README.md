@@ -1,8 +1,13 @@
 # tic-tac-toe
 This repo contains a the tic-tac-toe game written in python which is run and played on the command line interface(CLI)
 
+## How to play
+* You first need to download the code.
+* First make sure that python3 is installed in your ubuntu os
+* Run the command below to start playing
+    ./tic_tac_toe.py
 
-### Sample output
+## Sample output
 **Player 1 wins:**
 
 ![image](https://user-images.githubusercontent.com/96857630/168550264-34859ae8-6aa3-4295-803e-01f0414c4c2b.png)
