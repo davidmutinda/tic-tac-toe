@@ -1,5 +1,5 @@
 # tic-tac-toe
-This repo contains a the tic-tac-toe game written in python which is run and played on the command line interface(CLI)
+This repo contains code that runs the tic-tac-toe game. It is written in python and meant to be played using the command line interface(CLI)
 
 ## How to play (on linux)
 * You first need to download the zip file at the root of this repo, as shown below.
