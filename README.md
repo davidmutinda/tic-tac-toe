@@ -7,7 +7,7 @@ This repo contains a the tic-tac-toe game written in python which is run and pla
 ![today](https://user-images.githubusercontent.com/96857630/171342014-a132b3e7-4386-46d6-ba6f-b326fc73a1ad.jpg)
 
 
-* Extract the files, then `cd` into the **tic-tac-toe** directory.
+* Extract the files, then `cd` into the **tic-tac-toe-main** directory.
 * Run the command `python3 --version` to check if you have python3 installed. 
 * If python3 isn't installed, [click here](https://docs.python-guide.org/starting/install3/linux/) for instructions on how to install it.
 * Lastly, run the command `./tic_tac_toe.py` to start playing. Enjoy!!
