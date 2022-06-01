@@ -17,17 +17,17 @@ This repo contains a the tic-tac-toe game written in python which is run and pla
 ![image](https://user-images.githubusercontent.com/96857630/171343018-c4d6be85-f7d0-4b39-a77f-6e77d28c4896.png)
 
 
-**Player 1 wins:**
+### Player 1 wins:
 
 ![image](https://user-images.githubusercontent.com/96857630/168550264-34859ae8-6aa3-4295-803e-01f0414c4c2b.png)
 
 
-**Player 2 wins:**
+### Player 2 wins:
 
 ![image](https://user-images.githubusercontent.com/96857630/168550731-3b3762bf-621f-4c33-ab19-dc15ae3c3d60.png)
 
 
-**Draw:**
+### Draw:
 
 ![image](https://user-images.githubusercontent.com/96857630/168551215-fd81d159-d32e-40d7-8b42-8d896217f875.png)
 
