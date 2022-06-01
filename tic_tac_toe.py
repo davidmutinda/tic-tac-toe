@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def gameplay(value):
     """This function takes the position the player inputs and prints it on the grid"""
     steps = [
