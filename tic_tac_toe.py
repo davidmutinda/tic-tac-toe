@@ -61,16 +61,13 @@ def checkWinner():
     else:
         return "no"
 
-def player1():
-    """This function is the entry point and allows player 1 to play it"""
-    c = 0
-    d = 0
+def checkDraw():
     for c in range(0,3):
         for d in range(0,3):
             if arr[c][d] == " ":
                 break
         if arr[c][d] == " ":
-            break 
+            break
     if c == 2 and d == 2 and arr[c][d] != " ":
         print("\033[32mDraw!! \033[0m")
         print(" ")
@@ -78,6 +75,10 @@ def player1():
         print("\033[0m")
         quit()
 
+def player1():
+    """This function is the entry point and allows player 1 to play it"""
+
+    checkDraw()
     print("\033[91mPLAYER 1'S TURN \033[0m")
     result = "fail"
     while result == "fail":
@@ -90,20 +91,8 @@ def player1():
 
 def player2():
     """This function allows player 2 to play the game"""
-    c = 0
-    d = 0
-    for c in range(0,3):
-        for d in range(0,3):
-            if arr[c][d] == " ":
-                break
-        if arr[c][d] == " ":
-            break 
-    if c == 2 and d == 2 and arr[c][d] != " ":
-        print("\033[32mDraw!! \033[0m")
-        print(" ")
-        print("\033[91mGame over!!")
-        print("\033[0m")
-        quit()
+    
+    checkDraw()
     print("\033[32mPLAYER 2'S TURN \033[0m")
     result = "fail"
     while result == "fail":
@@ -116,8 +105,8 @@ def player2():
 
 arr = [[' ', ' ', ' '], [' ', ' ', ' '], [' ', ' ', ' ']]
 winner = " "
-print("\033[32mWELCOME TO SHELBYS' TICTACTOE GAME")
-print("----------------------------------")
+print("\033[32mWELCOME TO THE TICTACTOE GAME")
+print("-----------------------------")
 print("Player 1 character = x")
 print("Player 2 character = 0 \033[0m")
 print(" ")
